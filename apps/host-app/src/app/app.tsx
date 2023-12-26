@@ -13,6 +13,7 @@ const App3 = React.lazy(() => loadRemoteModule('app3', './Module'));
 export function App() {
   return (
     <React.Suspense fallback={null}>
+      <h1>Host App</h1>
       <ul>
         <li>
           <Link to="/">Home</Link>
