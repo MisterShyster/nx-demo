@@ -2,7 +2,11 @@
   "name": "@nx-demo/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "affected:lint": "nx affected --target=lint --base=origin/main",
+    "affected:build": "nx affected --target=build --base=origin/main",
+    "affected": "npm run affected:lint && npm run affected:build"
+  },
   "private": true,
   "dependencies": {
     "@swc/helpers": "~0.5.2",
