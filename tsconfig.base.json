@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@nx-demo/lib1": ["libs/lib1/src/index.ts"],
+      "@nx-demo/lib2": ["libs/lib2/src/index.ts"],
       "app1/Module": ["apps/app1/src/remote-entry.ts"],
       "app2/Module": ["apps/app2/src/remote-entry.ts"],
       "app3/Module": ["apps/app3/src/remote-entry.ts"]
