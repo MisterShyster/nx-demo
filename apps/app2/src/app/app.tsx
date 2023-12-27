@@ -13,6 +13,7 @@ export function App() {
   const libContent2 = lib2Function();
   return (
     <StyledApp>
+      <p>hello!@</p>
       <h1>{libContent}</h1>
       <h1>{libContent2}</h1>
       <NxWelcome title="app2" />
